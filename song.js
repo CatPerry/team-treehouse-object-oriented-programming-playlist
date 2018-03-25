@@ -16,7 +16,7 @@ Song.prototype.stop = function() {
 Song.prototype.toHTML = function() {
 	//add in the "current" li class from the html and break it onto several lines. 
 	var htmlString = "<li ";
-	if(this.isPlaying = true) {
+	if(this.isPlaying) {
 	htmlString += "class='current'"; //we only want the class of current if the song is playing
 	}
 	htmlString += ">";
